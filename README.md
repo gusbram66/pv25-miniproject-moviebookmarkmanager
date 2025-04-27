@@ -2,22 +2,22 @@
 
 ## Movie Bookmark Manager
 
-Aplikasi GUI sederhana berbasis PyQt5 untuk mengelola daftar film favorit Anda.
+* Aplikasi GUI sederhana berbasis PyQt5 untuk mengelola daftar film favorit Anda.
 
 ## Fitur
 
-Menambahkan judul film, genre, rating, dan menandai sebagai favorit
+* Menambahkan judul film, genre, rating, dan menandai sebagai favorit
 
-Menampilkan daftar film yang telah ditambahkan
+* Menampilkan daftar film yang telah ditambahkan
 
-Antarmuka yang ramah pengguna dengan layout dan styling
+* Antarmuka yang ramah pengguna dengan layout dan styling
 
-Menampilkan nama dan NIM mahasiswa (tidak dapat diedit)
+* Menampilkan nama dan NIM mahasiswa (tidak dapat diedit)
 
 ## Teknologi yang Digunakan
 
-Python 3
+* Python 3
 
-PyQt5
+* PyQt5
 
-Qt Designer (untuk desain antarmuka)
+* Qt Designer (untuk desain antarmuka)
