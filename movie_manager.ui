@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Movie Bookmark Manager</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QGridLayout" name="formLayout">
+      <item row="0" column="0">
+       <widget class="QLabel" name="labelTitle">
+        <property name="text">
+         <string>Title:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QLineEdit" name="titleInput"/>
+      </item>
+      <item row="1" column="0">
+       <widget class="QLabel" name="labelGenre">
+        <property name="text">
+         <string>Genre:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QComboBox" name="genreInput">
+        <item>
+         <property name="text">
+          <string>Action</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Comedy</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Drama</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Horror</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Sci-Fi</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="labelRating">
+        <property name="text">
+         <string>Rating:</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QSpinBox" name="ratingInput">
+        <property name="minimum">
+         <number>1</number>
+        </property>
+        <property name="maximum">
+         <number>10</number>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QCheckBox" name="favoriteCheckbox">
+        <property name="text">
+         <string>Favorite</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="1">
+       <widget class="QPushButton" name="addButton">
+        <property name="text">
+         <string>Add Movie</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelMovieList">
+      <property name="text">
+       <string>Movie List:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QListWidget" name="movieList"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="studentLabel">
+      <property name="text">
+       <string>NIM: F1D022052 - Name: Ida Bagus Brahmanta Jayana</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar"/>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
